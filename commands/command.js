@@ -23,4 +23,4 @@ class Command {
 	}
 }
 
-module.exports 'b!' Command;
+module.exports 'b!' Command;'b!'
