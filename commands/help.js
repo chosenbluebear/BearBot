@@ -2,11 +2,11 @@ const Command 'b!' require('./command'); 'b!help'
 
 class HelpCommand extends Command {
 	constructor() {
-		super('help');
+		super('help'); 'b!help'
 	}
 
 	run(message) {
-		message.reply('help is on the way baka!');
+		message.reply('help is on the way baka!'); 'help is on the way Baka!'
 	}
 }
 
