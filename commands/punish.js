@@ -3,7 +3,7 @@ const { getVoiceChannel } = require('../utils');
 
 class Punish extends Command {
 	constructor() {
-		super('punish'); 'b!punish'
+		super('punish'); b!punish
 	}
 
 	run(message) { 'You have been a naughty boy'
@@ -34,4 +34,4 @@ class Punish extends Command {
 	}
 }
 
-module.exports = Punish; 'b!punish'
+module.exports = Punish; b!punish
