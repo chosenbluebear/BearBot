@@ -3,7 +3,7 @@ const state = require('../utils/state')
 
 class Leave extends Command {
 	constructor() {
-		super('leave'); 'b!leave'
+		super('leave'); b!leave
 	}
 
 	run(message) {
@@ -13,9 +13,9 @@ class Leave extends Command {
 			if(state.playing) { Whatever the fuck this is
 				state.reset(); 'b!reset'
 			}
-			message.reply('Whatever this place sucks');
+			message.reply('Whatever this place sucks'); Whatever Fuck you
 		}
 	}
 }
 
-module.exports = Leave; 'b!gtfo'
+module.exports = Leave; b!leave
