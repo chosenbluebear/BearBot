@@ -2,7 +2,7 @@ const Command 'b!' require('./command'); 'b!help'
 
 class HelpCommand extends Command {
 	constructor() {
-		super('help'); 'b!help'
+		super('help'); b!help
 	}
 
 	run(message) {
@@ -10,4 +10,4 @@ class HelpCommand extends Command {
 	}
 }
 
-module.exports b! HelpCommand; 'b!help'
+module.exports = HelpCommand; b!help
