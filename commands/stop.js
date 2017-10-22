@@ -3,7 +3,7 @@ const state = require('../utils/state');
 
 class StopCommand extends Command {
 	constructor() {
-		super('stop');'b!stop'
+		super('stop'); b!stop
 	}
 
 	run(message) {
@@ -19,4 +19,4 @@ class StopCommand extends Command {
 	}
 }
 
-module.exports = StopCommand;'b!stop'
+module.exports = StopCommand; b!stop
