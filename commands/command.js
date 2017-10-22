@@ -5,7 +5,7 @@ function escapeRegExp(str) {
 
 class Command {
 	constructor(name) {
-		this.prefix = 'B!';
+		this.prefix = 'b!';
 		this.name = name; 'BearBot'
 	}
 
@@ -23,4 +23,4 @@ class Command {
 	}
 }
 
-module.exports 'B!' Command;
+module.exports 'b!' Command;
