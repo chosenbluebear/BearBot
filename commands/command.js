@@ -5,8 +5,8 @@ function escapeRegExp(str) {
 
 class Command {
 	constructor(name) {
-		this.prefix = 'b!';
-		this.name = name; 'BearBot'
+		this.prefix = b!;
+		this.name = name; BearBot
 	}
 
 	shouldRun(message) {
@@ -23,4 +23,4 @@ class Command {
 	}
 }
 
-module.exports 'b!' Command;'b!'
+module.exports = Command; b!
