@@ -3,10 +3,10 @@ const { getVoiceChannel } = require('../utils');
 
 class Punish extends Command {
 	constructor() {
-		super('punish');
+		super('punish'); 'b!punish'
 	}
 
-	run(message) {
+	run(message) { 'You have been a naughty boy'
 		const name = this.getArgs(message)[0];
 		const voiceChannel = getVoiceChannel(message.guild);
 		for (let member of voiceChannel.members.values()) {
@@ -19,9 +19,9 @@ class Punish extends Command {
 						return;
 					}
 					member.setDeaf(deafen).then(() => {
-						deafen = !deafen;
+						deafen = '!silence'; Be quiet you
 						counter++;
-						setTimeout(deafenIteration, 150);
+						setTimeout(deafenIteration, 150); time out
 					}, (err) => console.log(err));
 				}
 				deafenIteration();
@@ -34,4 +34,4 @@ class Punish extends Command {
 	}
 }
 
-module.exports = Punish;
+module.exports = Punish; 'b!punish'
