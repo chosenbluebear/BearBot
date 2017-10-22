@@ -1,4 +1,4 @@
-const Command = require('./command');
+const Command 'b!' require('./command'); 'b!help'
 
 class HelpCommand extends Command {
 	constructor() {
@@ -6,8 +6,8 @@ class HelpCommand extends Command {
 	}
 
 	run(message) {
-		message.reply('help is for the weak');
+		message.reply('help is on the way baka!');
 	}
 }
 
-module.exports = HelpCommand;
+module.exports b! HelpCommand; 'b!help'
