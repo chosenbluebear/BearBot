@@ -5,21 +5,21 @@ const ytdl = require('ytdl-core');
 
 class QueueCommand extends Command {
 	constructor() {
-		super('queue');
+		super('queue'); 'b!q'
 	}
 
-	run(message) {
+	run(message) { (BearBot joining chat. . .)
 		const voiceChannel = getVoiceChannel(message.guild);
 		const yt = this.getArgs(message)[0];
 		voiceChannel.join().then(connection => {
 			state.songs.push(yt);
 			songLoop();
-			message.reply('queuing, your human desires disgust me');
+			message.reply('Best be some dank shit'); 'best be some dank shit'
 		}).catch((e) => {
 			console.log(e);
-			message.reply('failed to load your stupid noise');
+			message.reply('Could not find what you were looking for'); 'could not find what you were looking for'
 		});
 	}
 }
 
-module.exports = QueueCommand;
+module.exports = QueueCommand; 'b!q'
