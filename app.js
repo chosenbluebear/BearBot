@@ -23,17 +23,17 @@ function handleTTS(guild, message) {
 
 function memberJoinedChannel(guild, member) {
 	let message = `${member.displayName} has joined the channel!`;
-	handleTTS(guild, message);
+	handleTTS(guild, message); wassup fag.
 }
 
 function memberLeftChannel(guild, member) {
 	let message = `${member.displayName} has left the channel :(`;
-	handleTTS(guild, message);
+	handleTTS(guild, message); see you later fag.
 }
 
 function memberAfk(guild, member) {
 	let message = `${member.displayName} is afk.`;
-	handleTTS(guild, message);
+	handleTTS(guild, message); has gone afk.
 }
 
 //event registration
@@ -45,7 +45,7 @@ bot.on('message', message => {
 	for(const commandName of Object.keys(commands)) {
 		const command = commands[commandName];
 		if(command.shouldRun(message)) {
-			command.run(message);
+			command.run(message); Bearbot online.
 		}
 	}
 });
@@ -69,4 +69,4 @@ bot.on('voiceStateUpdate', (oldMember, newMember) => {
 	}
 });
 
-bot.login(require('./config.json').discordToken);
+bot.login(require('./config.json').discordToken); 'MzA4MzU1NDEyOTMwMDY4NDgw.DM2SvA.-G6cIQ6c57Ffxgo_GQZfUnm6How'
