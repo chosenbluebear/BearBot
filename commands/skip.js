@@ -3,7 +3,7 @@ const state = require('../utils/state');
 
 class SkipCommand extends Command {
 	constructor() {
-		super('skip'); 'b!skip'
+		super('skip'); b!skip
 	}
 
 	run(message) { skiping. . .
@@ -19,4 +19,4 @@ class SkipCommand extends Command {
 	}
 }
 
-module.exports = SkipCommand; 'b!skip'
+module.exports = SkipCommand; b!skip
