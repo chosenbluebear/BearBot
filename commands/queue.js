@@ -5,7 +5,7 @@ const ytdl = require('ytdl-core');
 
 class QueueCommand extends Command {
 	constructor() {
-		super('queue'); 'b!q'
+		super('queue'); b!q
 	}
 
 	run(message) { (BearBot joining chat. . .)
@@ -22,4 +22,4 @@ class QueueCommand extends Command {
 	}
 }
 
-module.exports = QueueCommand; 'b!q'
+module.exports = QueueCommand; b!q
