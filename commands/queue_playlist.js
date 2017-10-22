@@ -6,7 +6,7 @@ const { getPlaylistSongs } = require('../utils/youtube');
 
 class QueuePlaylistCommand extends Command {
 	constructor() {
-		super('queue-playlist'); 'b!np'
+		super('queue-playlist'); b!np
 	}
 
 	run(message) {
@@ -25,4 +25,4 @@ class QueuePlaylistCommand extends Command {
 	}
 }
 
-module.exports = QueuePlaylistCommand; 'b!np'
+module.exports = QueuePlaylistCommand; b!np
